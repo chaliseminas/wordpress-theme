@@ -1,0 +1,2422 @@
+/* ==================================
+===== rezilla SECTION TITLE CSS ======
+================================== */
+
+:root {
+    --thm-font: "Inter", sans-serif;
+    --heading-font: "Rubik", serif;
+    --color-body: #645E80;
+    --color-black: #1B153B;
+    --color-blue: #1769FE;
+    --color-white: #ffffff;
+    --color-yellow: #FEB100;
+    --color-form: #eff2f6;
+    --shadow-white: rgb(0 0 0 / 8%);
+    --border-white: #f1f1f1;
+}
+
+.tran-04,
+.tran-04:hover {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.rezilla-section-stitle {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: var(--color-blue);
+    font-family: var(--heading-font);
+    line-height: 46px;
+    margin: 0;
+    padding: 0;
+}
+
+.rezilla-section-title {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 57px;
+    font-family: var(--heading-font);
+    color: var(--color-black);
+    padding: 0 135px;
+}
+
+
+/*************************************
+******** SHAPE  CONTROLL CSS  **********
+*************************************/
+
+.tp-section-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+.shapeanimation {
+    -webkit-animation-duration: 9s;
+    animation-duration: 9s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    -webkit-animation-duration: 9s;
+    z-index: -1;
+}
+
+
+/* custom animations */
+
+@-webkit-keyframes shapeMover {
+    0%,
+    100% {
+        transform: perspective(400px) translateY(0) rotate(0deg) translateZ(0px) translateX(0);
+    }
+    50% {
+        transform: perspective(400px) rotate(-45deg) translateZ(20px) translateY(20px) translateX(20px);
+    }
+}
+
+@keyframes shapeMover {
+    0%,
+    100% {
+        transform: perspective(400px) translateY(0) rotate(0deg) translateZ(0px) translateX(0);
+    }
+    50% {
+        transform: perspective(400px) rotate(-45deg) translateZ(20px) translateY(20px) translateX(20px);
+    }
+}
+
+@keyframes shapeMover {
+    0%,
+    100% {
+        transform: perspective(400px) translateY(0) rotate(0deg) translateZ(0px) translateX(0);
+    }
+    50% {
+        transform: perspective(400px) rotate(-45deg) translateZ(20px) translateY(20px) translateX(20px);
+    }
+}
+
+@-webkit-keyframes bubbleMover {
+    0% {
+        transform: translateY(0px) translateX(0) rotate(0);
+    }
+    30% {
+        transform: translateY(30px) translateX(50px) rotate(15deg);
+        transform-origin: center center;
+    }
+    50% {
+        transform: translateY(50px) translateX(100px) rotate(45deg);
+        transform-origin: right bottom;
+    }
+    80% {
+        transform: translateY(30px) translateX(50px) rotate(15deg);
+        transform-origin: left top;
+    }
+    100% {
+        transform: translateY(0px) translateX(0) rotate(0);
+        transform-origin: center center;
+    }
+}
+
+@keyframes bubbleMover {
+    0% {
+        transform: translateY(0px) translateX(0) rotate(0);
+    }
+    30% {
+        transform: translateY(30px) translateX(50px) rotate(15deg);
+        transform-origin: center center;
+    }
+    50% {
+        transform: translateY(50px) translateX(100px) rotate(45deg);
+        transform-origin: right bottom;
+    }
+    80% {
+        transform: translateY(30px) translateX(50px) rotate(15deg);
+        transform-origin: left top;
+    }
+    100% {
+        transform: translateY(0px) translateX(0) rotate(0);
+        transform-origin: center center;
+    }
+}
+
+
+/*=================================
+======= REZILLA ABOUT US CSS =======
+=================================*/
+
+.rezilla-about-stitle {
+    font-size: 22px;
+    color: var(--color-blue);
+    font-family: var(--heading-font);
+    font-weight: 500;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.rezilla-about-content .rezilla-about-title {
+    font-size: 32px;
+    line-height: 55px;
+    color: var(--color-black);
+    font-weight: bold;
+    font-family: var(--heading-font);
+    margin: 0;
+    padding: 0;
+}
+
+.rezilla-about-dec p {
+    color: var(--color-body);
+    line-height: 28px;
+    opacity: 80%;
+    margin-top: 23px;
+    margin-bottom: 36px;
+}
+
+.rezilla-about-dec ul {
+    padding: 0;
+    margin: 0;
+}
+
+.rezilla-about-dec ul li {
+    color: var(--color-black);
+    line-height: 40px;
+    font-weight: 400;
+    display: inline-block;
+    width: 49%;
+    position: relative;
+    margin-bottom: 11px;
+    clear: both;
+    padding-left: 45px;
+}
+
+.rezilla-about-dec ul li:before {
+    content: "\F272";
+    font-family: 'bootstrap-icons' !important;
+    display: inline-block;
+    border-radius: 100%;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 600;
+    clear: both;
+    position: absolute;
+    left: 0;
+    color: var(--color-blue);
+}
+
+.rezilla-about-content.rezilla-right .rezilla-about-dec ul li:before {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.rezilla-line-bg {
+    z-index: -1;
+}
+
+.rezilla-about-content.text-right .rezilla-about-dec ul li:before {
+    left: auto;
+    right: 0;
+}
+
+.rezilla-about-content.text-right .rezilla-about-dec ul li {
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+
+/*=================================
+===== REZILLA COUNTER CSS =====
+=================================*/
+
+.rezilla-counter .counter-content .counter-nmber {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--color-white);
+    font-family: var(--thm-font);
+}
+
+.counter-icons {
+    width: 100px;
+    height: 100px;
+    background: var(--color-white);
+    border-radius: 100%;
+    font-size: 50px;
+    padding: 20px;
+    border: 5px solid #2589d9;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.resty-counter-title {
+    font-size: 15px;
+    color: var(--color-white);
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+
+/*=================================
+===== REZILLA CONTACT INFO CSS =====
+=================================*/
+
+.contact-info-list ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.contact-info-list ul li {
+    padding: 10px 0;
+    display: inline-flex;
+    color: var(--color-white);
+    align-content: center;
+}
+
+.contact-info-list ul li .icon {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.contact-info-list ul li:last-child {
+    padding-bottom: 0;
+}
+
+.contact-info-list ul li p {
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info-list ul li a {
+    color: var(--color-white);
+}
+
+.contact-info-list ul li a:hover {
+    color: var(--color-blue);
+}
+
+
+/*=================================
+====== REZILLA SERVICE BOX CSS =======
+=================================*/
+
+.service-icon {
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    text-align: center;
+    padding: 27px;
+    font-size: 30px;
+    color: var(--color-block);
+    border: 1px solid #c0d7ff;
+    display: inline-block;
+}
+
+.title2 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-top: 30px;
+    color: var(--color-black);
+    padding-bottom: 3px;
+}
+
+a.link-btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-black);
+    display: inline-block;
+    margin-top: 15px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.service-wrapper:hover .service-icon {
+    background: var(--color-blue);
+    color: var(--color-white);
+    border-color: transparent;
+    box-shadow: 0px 0px 35px 0px rgb(23 105 254 / 38%);
+}
+
+.service-wrapper:hover .title2,
+.service-wrapper:hover .title2 a,
+.service-wrapper:hover a.link-btn {
+    color: var(--color-blue);
+}
+
+.service-wrapper.style-two .service-img img {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.service-img {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+}
+
+.service-wrapper.style-two {
+    padding: 30px;
+    box-shadow: 0px 0px 24px rgb(0 0 0 / 14%);
+    border-radius: 5px;
+}
+
+.service-wrapper.style-two:hover .service-img {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+}
+
+.service-wrapper.style-two:hover a.link-btn {
+    opacity: 0;
+    margin: 0;
+}
+
+
+/*=================================
+====== REZILLA CLIENT LOGO CSS =======
+=================================*/
+
+.rezilla-client-logo-items img {
+    padding: 0 15px;
+    width: auto !important;
+}
+
+.rezilla-client-logo-wrapper.enable-slide {
+    text-align: center;
+}
+
+
+/*=================================
+====== REZILLA ACCORDION CSS =======
+=================================*/
+
+.accordion-wrapper .accordion-button::after {
+    margin-right: 0;
+}
+
+.accordion-wrapper button.accordion-button {
+    border: none;
+}
+
+.accordion-wrapper .accordion-header button {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    background: transparent;
+    color: var(--color-black);
+    border-bottom: 1px solid var(--border-white);
+    padding: 18px 30px;
+    display: block;
+    width: 100%;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.accordion-collapse {
+    border-width: 0 1px;
+    border-color: transparent;
+}
+
+.accordion-wrapper .accordion-header button.collapsed {
+    border-color: transparent;
+}
+
+.accordion-wrapper .accordion-header button {
+    border-color: transparent;
+    border-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion-wrapper .accordion-item {
+    box-shadow: 0px 0px 33px 0px rgb(0 0 0 / 8%);
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.accordion-wrapper .accordion-header button:focus {
+    box-shadow: none;
+}
+
+.accordion-wrapper .accordion-header button:after {
+    content: "\F63B";
+    font-family: 'bootstrap-icons';
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.accordion-wrapper .accordion-header button.collapsed:after {
+    content: "\F64D";
+    font-family: 'bootstrap-icons';
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.accordion-wrapper .accordion-header button:after {
+    float: right;
+}
+
+
+/*=================================
+====== REZILLA VIDEO BUTTON TWO CSS =======
+=================================*/
+
+.video-button-two {
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    z-index: 6;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    animation-delay: .7s;
+    display: inline-block;
+}
+
+.video-button-two:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: var(--color-white) repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: pulse-border 1500ms ease-out infinite;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+.video-button-two:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--color-white) repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    transition: all 200ms;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+}
+
+.video-button-two:after {
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+}
+
+.video-button-wrapper .icon {
+    line-height: 0;
+}
+
+@-webkit-keyframes pulse-border {
+    0% {
+        -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes pulse-border {
+    0% {
+        -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
+}
+
+
+/*=================================
+====== REZILLA TESTIMONIAL ONE CSS =======
+=================================*/
+
+.rezilla-tesimonial-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tesimonial-rating {
+    font-size: 20px;
+    color: #FFC107;
+}
+
+.tesimonial-rating i {
+    margin: 2px;
+}
+
+.tesimonial-icon {
+    font-size: 50px;
+    color: var(--color-blue);
+}
+
+.rezilla-testimonial-item {
+    padding: 20px;
+    box-shadow: 0px 0px 16px 0px rgb(0 0 0 / 7%);
+}
+
+.tesimonial-content .rezilla-testimonial-dec {
+    font-size: 15px;
+}
+
+.testimonial-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    line-height: 34px;
+}
+
+.testimonial-stitle {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    color: #645E80;
+    line-height: 18px;
+}
+
+.tesimonial-title-area {
+    display: block;
+    margin-top: 15px;
+}
+
+.rezilla-testimonial-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    position: relative;
+}
+
+.rezilla-testimonial-img {
+    position: relative;
+}
+
+.rezilla-testimonial-wrapper.style-one .rezilla-testimonial-img:before {
+    content: "";
+    width: 75px;
+    height: 115px;
+    background: #ECF3FF;
+    position: absolute;
+    left: -10px;
+    z-index: -1;
+    top: -10px;
+    border-radius: 5px;
+}
+
+.testi-slide-row .slick-slide {
+    padding: 15px;
+}
+
+.rezilla-testimonial-items.with-slide .rezilla-testimonial-item {
+    margin-bottom: 22px;
+}
+
+.testimonila-two-arrow {
+    text-align: right;
+    padding: 0 12px;
+}
+
+.testimonila-two-arrow button.slick-arrow {
+    border: none;
+    background: transparent;
+    font-size: 31px;
+    color: #1407FD;
+}
+
+.testimonila-two-arrow button.slick-arrow.slick-disabled {
+    opacity: .6;
+}
+
+.rezilla-testimonial-wrapper.style-two .rezilla-testimonial-item {
+    padding: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.rezilla-testimonial-wrapper.style-two .tesimonial-icon,
+.rezilla-testimonial-wrapper.style-two .testimonial-title {
+    color: #1407fd;
+}
+
+.rezilla-testimonial-wrapper.style-three .tesimonial-rating {
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.rezilla-testimonial-wrapper.style-three .rezilla-tesimonial-top {
+    position: absolute;
+    z-index: -9;
+}
+
+.rezilla-testimonial-wrapper.style-three .rezilla-tesimonial-top .tesimonial-icon {
+    font-size: 85px;
+    color: rgb(255 123 102 / 15%);
+}
+
+.rezilla-testimonial-wrapper.style-three .tesimonial-content {
+    padding: 25px;
+}
+
+.tesi-shape1 {
+    -webkit-mask-image: url(../img/testi1.svg);
+    mask-image: url(../img/testi1.svg);
+    -webkit-mask-size: 101%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(93, 74, 254);
+    background: linear-gradient(128deg, rgba(93, 74, 254, 1) 0%, rgba(57, 161, 255, 1) 100%);
+    top: 5px;
+}
+
+.tesi-shape2 {
+    -webkit-mask-image: url(../img/testi2.svg);
+    mask-image: url(../img/testi2.svg);
+    -webkit-mask-size: 105%;
+    position: absolute;
+    width: 111%;
+    height: 100%;
+    background: rgb(99, 61, 254);
+    background: linear-gradient(128deg, rgba(99, 61, 254, 1) 0%, rgba(55, 159, 253, 1) 100%);
+    left: -14px;
+    top: -17px;
+}
+
+.rezilla-testimonial-wrapper.style-three .testimonila-two-arrow {
+    text-align: right;
+    padding: 0 12px;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+
+
+/**** Testimonial image effect ***/
+
+
+/*=================================
+== RESTLY IMAGE WITH EFFECT CSS ===
+=================================*/
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
+
+@keyframes morph2 {
+    0% {
+        border-radius: 60% 30% 70% 40% / 60% 40% 30% 70%;
+    }
+    50% {
+        border-radius: 50% 60% 30% 60% / 30% 60% 70% 40%;
+    }
+    100% {
+        border-radius: 60% 30% 70% 40% / 60% 40% 30% 70%;
+    }
+}
+
+
+/*=================================
+====== REZILLA BLOG ONE CSS =======
+=================================*/
+
+.post-meta-item ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.post-meta-item ul li,
+.post-meta-item ul li a {
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.post-meta-item ul li i {
+    margin-right: 5px;
+}
+
+.post-meta-item ul li span.author a {
+    margin-left: 4px;
+}
+
+.post-meta-item ul li {
+    margin-right: 25px;
+    display: inline-block;
+}
+
+.rezilla-blog-post-item {
+    padding: 30px;
+    box-shadow: 0px 0px 33px rgb(0 0 0 / 8%);
+    border-radius: 5px;
+}
+
+.rezilla-blog-post-img img {
+    border-radius: 5px;
+}
+
+.post-meta-item {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.rezilla-blog-top-area .post-meta-item ul li i {
+    color: var(--color-blue)
+}
+
+.rezilla-blog-post-title a {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: var(--heading-font);
+    color: var(--color-black);
+    display: block;
+}
+
+.rezilla-blog-post-title a:hover {
+    color: var(--color-blue);
+}
+
+.rezilla-post-dec {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.rezilla-post-dec p {
+    margin: 0;
+}
+
+.blog-buttons {
+    margin-top: 20px;
+}
+
+.blog-buttons .theme-btns {
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid #3C1FFF;
+    color: var(--color-black);
+}
+
+.blog-buttons .theme-btns:hover {
+    background-color: #3C1FFF;
+    color: var(--color-white);
+}
+
+
+/** Style Two **/
+
+.rezilla-blog-post-wrapper.style-two .first-no .rezilla-blog-post-img {
+    width: 30%;
+    display: inline-block;
+    clear: both;
+    overflow: hidden;
+    min-height: 180px;
+}
+
+.rezilla-blog-post-wrapper.style-two .first-no .rezilla-blog-post-content {
+    width: 65%;
+    display: inline-block;
+    margin-left: 30px;
+    clear: both;
+}
+
+.rezilla-blog-post-wrapper.style-two .first-no .rezilla-blog-post-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rezilla-blog-post-wrapper.style-two .first-no .rezilla-blog-post-item {
+    display: inline-flex;
+}
+
+.rezilla-blog-post-wrapper.style-two .first-no .post-meta-item {
+    padding-top: 0;
+}
+
+.rezilla-blog-post-wrapper.style-two .first-no:first-child {
+    margin-bottom: 25px;
+}
+
+.rezilla-blog-post-wrapper.style-two .first-item .rezilla-blog-post-img img {
+    height: 260px;
+    object-fit: cover;
+}
+
+.rezilla-blog-post-wrapper.style-two .first-no.no-thum .rezilla-blog-post-content {
+    margin: 0;
+    width: 100%;
+}
+
+
+/*=================================
+====== REZILLA SUBSCRIBE CSS =======
+=================================*/
+
+.mc4wp-form-fields input[type=email] {
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    background: #ffffff;
+    padding: 0 30px;
+    color: var(--color-black);
+    line-height: 28px;
+}
+
+.mc4wp-form-fields {
+    position: relative;
+}
+
+.mc4wp-form-fields input[type="submit"] {
+    -webkit-transition: .4s;
+    transition: .4s;
+    position: absolute;
+    right: 0;
+    border: none;
+    display: inline-block;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    top: 0;
+    padding: 11px 25px;
+    margin: 5px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.mc4wp-form-fields input:focus {
+    outline: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.mc4wp-form-fields input::placeholder {
+    color: var(--color-black);
+}
+
+.mc4wp-form-fields input[type="submit"]:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+
+/*=========================================
+======== REZILLA FEATURED CSS ========
+=========================================*/
+
+.feature-wrapper.style-one .feature-inner {
+    display: inline-flex;
+}
+
+.feature-wrapper .feature-inner {
+    padding: 30px;
+    box-shadow: 0px 0px 33px 0px rgb(0 0 0 / 8%);
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    background: #1769FE;
+    border-radius: 100%;
+    text-align: center;
+    padding: 15px 0;
+    line-height: 0;
+    font-size: 20px;
+    color: #ffffff;
+    border: 5px solid rgb(255 255 255 / 72%);
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.feature-wrapper.style-one .feature-icon {
+    margin-bottom: 0px;
+}
+
+.feature-wrapper.style-two .feature-inner:hover {
+    box-shadow: 0px 12px 40px 0px rgb(0 0 0 / 11%);
+}
+
+.feature-title {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+.feature-dec {
+    margin-top: 15px;
+}
+
+.feature-wrapper.style-one .feature-dec {
+    margin-top: 7px;
+}
+
+.feature-wrapper.style-one .feature-contents {
+    margin-left: 20px;
+}
+
+.feature-wrapper.style-one {
+    position: relative;
+    padding: 10px;
+}
+
+.feature-wrapper.style-one:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: #379FFD;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    z-index: -199;
+    border-radius: 5px;
+}
+
+.feature-btns {
+    margin-top: 18px;
+    display: block;
+    clear: both;
+}
+
+.feature-btns a {
+    font-size: 29px;
+}
+
+.feature-wrapper.style-three .feature-inner {
+    box-shadow: none;
+}
+
+.feature-wrapper.style-three .feature-inner:hover {
+    box-shadow: 0px 0px 33px 0px rgb(0 0 0 / 8%);
+    border-bottom: 3px solid #1769FE;
+}
+
+.feature-wrapper.style-three .feature-inner:hover .feature-title a {
+    color: #1769FE;
+}
+
+.feature-dec p {
+    margin: 0;
+}
+
+
+/*=========================================
+======== REZILLA CHOOSE BUTTON CSS ========
+=========================================*/
+
+.choose-payment-wrapper ul.nav {
+    display: block;
+    width: 100%;
+}
+
+.choose-payment-wrapper ul.nav li {
+    display: block;
+    width: 100%;
+}
+
+.choose-payment-wrapper ul.nav li button,
+.choose-payment-wrapper ul.nav li button.active {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    color: #1B153B;
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0px 0px 33px 0px rgb(0 0 0 / 8%);
+    border-radius: 50px;
+    padding: 18px 35px;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.choose-payment-wrapper ul.nav li:last-child .button {
+    margin-bottom: 0;
+}
+
+.choose-payment-wrapper ul.nav li:last-child button {
+    margin-bottom: 0;
+}
+
+.choose-payment-wrapper .button .theme-btns {
+    display: block;
+    margin-top: 40px;
+    border-radius: 50px;
+    padding: 19px 30px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.choose-payment-wrapper ul.nav li button span {
+    margin-right: 10px;
+}
+
+.choose-payment-wrapper ul.nav li button:after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background: transparent;
+    right: 35px;
+    border-radius: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px solid #3D1FFF;
+}
+
+.choose-payment-wrapper ul.nav li button.active:after {
+    background: #3D1FFF;
+    box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 30%);
+}
+
+
+/*=========================================
+======== REZILLA PRICING SECTION CSS ========
+=========================================*/
+
+.style-one .pricing-header {
+    -webkit-mask-image: url(../img/pricing.svg);
+    mask-image: url(../img/pricing.svg);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    background: #F3F3F3;
+    padding: 56px 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.pricing-items {
+    background: var(--color-white);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.pricing-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing-contnet {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pricing-contnet ul li {
+    line-height: 46px;
+    font-size: 18px;
+}
+
+.pricing-title {
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: var(--color-black);
+}
+
+.pricing-prices {
+    color: var(--color-black);
+    font-weight: bold;
+    font-family: var(--heading-font);
+}
+
+.pricing-prices sup.amount-icon {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pricing-prices span {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: var(--heading-font);
+    position: relative;
+}
+
+.pricing-prices span:after {
+    content: "/";
+    font-size: 29px;
+    padding-left: 10px;
+}
+
+.pricing-prices sub.month {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.pricing-button.buttons {
+    padding-bottom: 50px;
+}
+
+.pricing-button.buttons .theme-btns {
+    padding: 20px 45px;
+    border-radius: 50px;
+    background: transparent;
+    border: 2px solid #3C1FFF;
+    color: var(--color-black);
+}
+
+.pricing-items:hover .pricing-button.buttons .theme-btns {
+    background-color: #7000FD;
+    color: var(--color-white);
+    border-color: transparent;
+}
+
+.pricing-items:hover .pricing-header {
+    background-color: var(--color-black);
+}
+
+.pricing-items:hover .pricing-contnet ul li {
+    color: var(--color-black);
+}
+
+.pricing-contnet ul li {
+    transition: .4s;
+}
+
+.pricing-items:hover .pricing-title,
+.pricing-items:hover .pricing-prices {
+    color: var(--color-white);
+}
+
+
+/** Pricing two ***/
+
+.rezilla-pricing-wrapper.style-two .pricing-items {
+    padding: 30px;
+}
+
+.rezilla-pricing-wrapper.style-two .pricing-header {
+    padding: 20px 30px;
+    background: var(--color-blue);
+    border-radius: 5px;
+    background-image: url(../img/pricing-2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.style-two .pricing-title,
+.style-two .pricing-prices {
+    color: var(--color-white);
+}
+
+.style-two .pricing-button.buttons {
+    padding-bottom: 10px;
+}
+
+.style-two .pricing-button.buttons .theme-btns {
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+/*=========================================
+======== REZILLA PRICING TAB V1 CSS ========
+=========================================*/
+
+.pricing-tab-v1-menu-left h2 {
+    font-size: 22px;
+    color: var(--color-black);
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.pricing-tab-v1-wrapper .nav {
+    display: block;
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+.pricing-tab-v1-wrapper .nav-link {
+    background-color: #F1F6FF;
+    margin: 30px 0;
+    padding: 30px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricing-tab-v1-wrapper .nav-link.active {
+    background-color: var(--color-blue);
+}
+
+.pricing-tab-v1-menu-left span {
+    font-size: 11px;
+    background: #D6E5FF;
+    padding: 2px 14px;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.pricing-tab-v1-menu-right span {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.pricing-tab-v1-menu-right sup.amount-icon {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.pricing-tab-v1-menu-right sub.month {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.pricing-tab-v1-menu-right span:after {
+    content: "/";
+    font-size: 29px;
+    padding-left: 10px;
+}
+
+.nav-link.active .pricing-tab-v1-menu-left span {
+    background-color: #3E83FF;
+}
+
+.pricing-tab-v1-menu-left {
+    margin-left: 30px;
+}
+
+.pricing-tab-v1-menu-items {
+    position: relative;
+}
+
+.pricing-tab-v1-menu-items:after {
+    content: "\F28A";
+    position: absolute;
+    font-family: 'bootstrap-icons';
+    top: 0;
+    bottom: 0;
+    height: 25px;
+    margin: auto;
+}
+
+.pricing-tab-v1-menu-items {
+    color: var(--color-black);
+}
+
+.active .pricing-tab-v1-menu-items,
+.active .pricing-tab-v1-menu-left h2 {
+    color: var(--color-white);
+}
+
+.active .pricing-tab-v1-menu-items:after {
+    content: "\F26B";
+}
+
+.pricing-tab-v1-content {
+    padding: 37px 50px;
+    background: #F1F6FF;
+    border-radius: 5px;
+}
+
+.pricing-tab-v1-wrapper .nav .nav-link:first-child {
+    margin-top: 0;
+}
+
+.pricing-content-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-content-list ul li {
+    font-size: 16px;
+    position: relative;
+    line-height: 49px;
+}
+
+.pricing-content-list ul li .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: var(--color-blue);
+}
+
+.pricing-tab-v1-btn .theme-btns {
+    margin-top: 19px;
+    border-radius: 50px;
+    padding: 18px 40px;
+    box-shadow: 0px 0px 33px 0px rgb(5 18 32 / 22%);
+}
+
+
+/*=========================================
+======== REZILLA PRICING TAB VERSION TWO CSS ========
+=========================================*/
+
+.pricing-tab-v2-wrapper .nav-link,
+.pricing-tab-v2-wrapper .nav-link.active {
+    background: transparent;
+    color: var(--color-black);
+    font-weight: 500;
+}
+
+.rezilla-pricing-tabs-wrapper.pricing-tab-v2-wrapper .pricing-tab {
+    display: inline-flex;
+    background: var(--color-white);
+    border-radius: 5px;
+    box-shadow: 0px 0px 33px 0px rgb(51 51 51 / 11%);
+    position: relative;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.pricing-tab-v2-wrapper .pricing-tab:after {
+    width: 14px;
+    height: 14px;
+    background: var(--color-white);
+    border-radius: 100%;
+    content: "";
+    position: absolute;
+    margin: auto;
+    left: 27px;
+    right: 0;
+    top: auto;
+    transition: .4s;
+    bottom: auto;
+}
+
+.pricing-tab-v2-wrapper .pricing-tab:before {
+    width: 53px;
+    height: 20px;
+    background: var(--color-blue);
+    position: absolute;
+    left: 6px;
+    content: "";
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.pricing-tab-v2-wrapper .pricing-tab.for-yearly:after {
+    left: -21px;
+}
+
+.pricing-tab-v2-wrapper .pricing-tab .nav-link {
+    min-width: 130px;
+    padding: 12px 0;
+    margin: 0;
+}
+
+
+/*=========================================
+======== REZILLA AWARDS CSS ========
+=========================================*/
+
+.award-item {
+    display: inline-block;
+    position: relative;
+}
+
+.award-icon {
+    font-size: 50px;
+    background: var(--color-white);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 33px 0px var(--shadow-white);
+    margin: 8px;
+    color: var(--color-blue)
+}
+
+.award-icon svg {
+    width: 82px;
+}
+
+.award-item:after {
+    content: "";
+    height: 100%;
+    width: 40%;
+    background: var(--color-blue);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 5px
+}
+
+
+/*=========================================
+======== REZILLA DOWNLOAD BUTTON CSS ========
+=========================================*/
+
+.rezilla-download-buttons {
+    padding: 30px;
+    background: #F9F9F9;
+    border-radius: 5px;
+}
+
+.download-ttile {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--color-black);
+    margin: 0;
+    line-height: 40px;
+}
+
+.download-btn-dec {
+    margin: 15px 0;
+}
+
+a.download-button {
+    display: flex;
+    background-color: var(--color-white);
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-weight: bold;
+    color: var(--color-blue);
+    margin-top: 25px;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+a.download-button .icon {
+    display: inline-block;
+    /* float: right; */
+}
+
+a.download-button:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+
+/*=========================================
+======== REZILLA ABOUT WIDGET CSS ========
+=========================================*/
+
+.rezilla-about-widget-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.rezilla-about-widget-img img {
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.rezilla-about-widget-info {
+    text-align: center;
+}
+
+.rezilla-about-widget-info h2.widget-title {
+    font-weight: bold;
+    margin: 0;
+}
+
+.rezilla-about-widget-info h2.widget-title:after,
+.rezilla-about-widget-info h2.widget-title:before {
+    content: unset;
+}
+
+.rezilla-about-widget-doc {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 19px;
+}
+
+.rezilla-about-widget-social ul {
+    padding: 0;
+    margin: 0;
+}
+
+.rezilla-about-widget-social ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+.rezilla-about-widget-social ul li a {
+    color: var(--color-black);
+    width: 40px;
+    height: 40px;
+    background: #E7F0FF;
+    display: block;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.rezilla-about-widget-social ul li a:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+
+/*=========================================
+======== REZILLA TEAM SINGLE INFO CSS ========
+=========================================*/
+
+.team-title {
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 44px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+span.team-stitle {
+    font-size: 18px;
+    text-transform: capitalize;
+    display: block;
+}
+
+.team-info-list {
+    margin: 25px 0;
+}
+
+.team-info-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.team-info-list ul li {
+    line-height: 35px;
+}
+
+.team-info-list ul li>span {
+    min-width: 146px;
+    display: inline-block;
+    padding-right: 10px;
+    font-weight: 500;
+}
+
+.team-single-info-area {
+    padding-left: 30px;
+}
+
+.team-social-info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.team-social-info ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.team-social-info ul li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #F1F6FF;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 15px;
+}
+
+.team-social-info ul li a:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.team-featured-img img {
+    padding: 18px;
+    border-radius: 5px;
+    padding-left: 0;
+}
+
+.team-featured-img {
+    position: relative;
+}
+
+.team-featured-img:after {
+    content: "";
+    width: 95%;
+    height: 100%;
+    background: #FEB100;
+    position: absolute;
+    left: -20px;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+@media all and (max-width: 991px) {
+    .team-single-info-area {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .team-single-info-area {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .team-info-list ul li>span {
+        min-width: 54px;
+    }
+}
+
+
+/*=========================================
+======== REZILLA PROGRESSBAR CSS ========
+=========================================*/
+
+.progress-title {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-family: var(--thm-font);
+    margin-bottom: 7px;
+}
+
+.progress {
+    height: 8px;
+    background: rgb(23 105 254 / 44%);
+    overflow: inherit;
+}
+
+.progress-bar {
+    position: relative;
+    overflow: inherit;
+    border-radius: 30px;
+    background-color: var(--color-blue);
+}
+
+.progress-bar span {
+    position: absolute;
+    right: 0;
+    top: -33px;
+    color: var(--color-black);
+    z-index: 9;
+    opacity: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/*=========================================
+======== REZILLA TEAM ITEMS CSS ========
+=========================================*/
+
+.team-addons-title a {
+    color: var(--color-white);
+}
+
+.team-addons-title a:hover {
+    color: var(--color-black);
+}
+
+.team-addons-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    line-height: 34px;
+}
+
+.team-content {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(87 82 218 / 82%);
+    padding: 31px 0;
+    border-radius: 5px;
+    margin-bottom: -200px;
+    transition: .4s;
+}
+
+.team-item-box {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    visibility: visible;
+}
+
+.team-boxs {
+    padding: 10px;
+}
+
+.team-sociala {
+    margin-top: 13px;
+}
+
+.team-sociala ul li a {
+    width: auto;
+    height: auto;
+    background: transparent;
+    color: var(--color-white);
+    margin: 0 5px;
+    line-height: 1;
+}
+
+.team-sociala ul li a:hover {
+    background: transparent;
+    color: var(--color-black);
+}
+
+.team-titles span {
+    color: var(--color-white);
+}
+
+.team-item-box:hover .team-content {
+    margin-bottom: 0;
+}
+
+.team-item {
+    position: relative;
+}
+
+.team-item span.teambg {
+    position: absolute;
+    width: 100%;
+    height: 49%;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+
+/*=========================================
+======== REZILLA SERVICE TAB CSS ========
+=========================================*/
+
+.flex-column.service-tab_titles {
+    max-width: fit-content;
+    clear: both;
+    width: 100%;
+    margin-right: 40px;
+}
+
+.service-tab-title .icon {
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.service-tab-title.nav-link {
+    font-size: 15px;
+    background-color: var(--color-white);
+    border-radius: 5px;
+    font-weight: 500;
+    box-shadow: 0px 0px 33px 0px rgb(0 0 0 / 10%);
+    margin-bottom: 30px;
+    padding: 20px 30px;
+}
+
+.service-tab-title.nav-link.active {
+    background-color: var(--color-white);
+    color: var(--color-blue);
+}
+
+.service-tabs .tab-content {
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 33px 0px rgb(0 0 0 / 8%);
+    border-radius: 5px;
+}
+
+.service-tab-img img {
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.service-buttons {
+    display: block;
+    margin-top: 30px;
+}
+
+.horizontal.nav.service-tab_titles .service-tab-title {
+    display: inline-block;
+    padding: 18px 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+
+/*=========================================
+======== REZILLA PROJECT SLIDER CSS ========
+=========================================*/
+
+.project-imgs .slick-active.slick-center img {
+    z-index: 9999;
+    border: 8px solid var(--color-black);
+    opacity: 1;
+    border-radius: 15px;
+    padding: 0;
+}
+
+.project-imgs .slick-slide img {
+    opacity: .7;
+    height: 100%;
+    padding: 10px;
+}
+
+
+/*=========================================
+======== REZILLA CONTACT FORM 7 CSS ========
+=========================================*/
+
+.rezilla-input input[type="text"],
+.rezilla-input input[type="email"],
+.rezilla-input.message textarea,
+.rezilla-input input[type="url"] {
+    background: #F5F5F5;
+    border: 2px solid var(--border-white);
+    margin-bottom: 25px;
+}
+
+.rezilla-input.message textarea {
+    padding: 15px;
+}
+
+.rezilla-input {
+    position: relative;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    background-color: var(--color-blue);
+    border: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: var(--color-white);
+    transition: .4s;
+    outline: none;
+    display: block;
+    width: 100%;
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover {
+    background-color: var(--color-black);
+}
+
+
+/*====================================
+======== REZILLA DOT SHAPE CSS ========
+====================================*/
+
+.shapeanimation {
+    position: absolute;
+    top: 95px;
+    left: 250px;
+    -webkit-animation-duration: 9s;
+    animation-duration: 9s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+
+/* custom animations */
+
+@-webkit-keyframes shapeMover {
+    0%,
+    100% {
+        -webkit-transform: perspective(400px) translateY(0) rotate(0deg) translateZ(0px) translateX(0);
+        transform: perspective(400px) translateY(0) rotate(0deg) translateZ(0px) translateX(0);
+    }
+    50% {
+        -webkit-transform: perspective(400px) rotate(-45deg) translateZ(20px) translateY(20px) translateX(20px);
+        transform: perspective(400px) rotate(-45deg) translateZ(20px) translateY(20px) translateX(20px);
+    }
+}
+
+@keyframes shapeMover {
+    0%,
+    100% {
+        -webkit-transform: perspective(400px) translateY(0) rotate(0deg) translateZ(0px) translateX(0);
+        transform: perspective(400px) translateY(0) rotate(0deg) translateZ(0px) translateX(0);
+    }
+    50% {
+        -webkit-transform: perspective(400px) rotate(-45deg) translateZ(20px) translateY(20px) translateX(20px);
+        transform: perspective(400px) rotate(-45deg) translateZ(20px) translateY(20px) translateX(20px);
+    }
+}
+
+@keyframes shapeMover {
+    0%,
+    100% {
+        transform: perspective(400px) translateY(0) rotate(0deg) translateZ(0px) translateX(0);
+    }
+    50% {
+        transform: perspective(400px) rotate(-45deg) translateZ(20px) translateY(20px) translateX(20px);
+    }
+}
+
+@keyframes bubbleMover {
+    0% {
+        -webkit-transform: translateY(0px) translateX(0) rotate(0);
+        transform: translateY(0px) translateX(0) rotate(0);
+    }
+    30% {
+        -webkit-transform: translateY(30px) translateX(50px) rotate(15deg);
+        transform: translateY(30px) translateX(50px) rotate(15deg);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+    }
+    50% {
+        -webkit-transform: translateY(50px) translateX(100px) rotate(45deg);
+        transform: translateY(50px) translateX(100px) rotate(45deg);
+        -webkit-transform-origin: right bottom;
+        transform-origin: right bottom;
+    }
+    80% {
+        -webkit-transform: translateY(30px) translateX(50px) rotate(15deg);
+        transform: translateY(30px) translateX(50px) rotate(15deg);
+        -webkit-transform-origin: left top;
+        transform-origin: left top;
+    }
+    100% {
+        -webkit-transform: translateY(0px) translateX(0) rotate(0);
+        transform: translateY(0px) translateX(0) rotate(0);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+    }
+}
+
+.dot-shapes {
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    z-index: 0;
+    top: 0;
+    background: var(--color-blue);
+}
+
+.dot-shapes.shape_left_pos {
+    left: -30em
+}
+
+.dot-shapes.shape_center_pos {
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+.dot-shapes.shape_right_pos {
+    right: -30em
+}
+
+.dot-shapes.shape_circle {
+    border-radius: 50%
+}
+
+.dot-shapes.shape_egg {
+    border-radius: 50% 50% 50% 50%/60% 60% 40% 40%
+}
+
+.dot-shapes.shape_organic_1 {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%
+}
+
+.dot-shapes.shape_organic_1_rotate {
+    border-radius: 70% 30% 30% 70%/70% 70% 30% 30%
+}
+
+.dot-shapes.shape_organic_2 {
+    border-radius: 70% 30% 70% 30%/30% 70% 30% 70%
+}
+
+.dot-shapes.shape_organic_2_rotate {
+    border-radius: 30% 70% 30% 70%/70% 30% 70% 30%
+}
+
+.dot-shapes.shape_dots {
+    -webkit-mask-image: url(../img/dots.svg);
+    mask-image: url(../img/dots.svg);
+    z-index: -1;
+    -webkit-mask-size: 18px;
+}
+
+.elementor-widget-container .row {
+    margin: 0;
+}
+
+
+/*====================================
+== REZILLA ELEMENTOR NAV WIDGET CSS ===
+====================================*/
+
+.elementor-widget-wp-widget-nav_menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.elementor-widget-wp-widget-nav_menu ul li {
+    display: block;
+}
+
+.elementor-widget-wp-widget-nav_menu ul li a {
+    display: block;
+    padding: 20px 020px;
+    border: 2px solid var(--border-white);
+    margin: 10px 0;
+    font-size: 18px;
+    color: var(--color-black);
+    font-weight: bold;
+    font-family: 'Nunito';
+    line-height: 1.5;
+    position: relative;
+    border-radius: 5px;
+}
+
+.elementor-widget-wp-widget-nav_menu ul li a:hover,
+.elementor-widget-wp-widget-nav_menu ul li.current-menu-item a {
+    border-color: var(--color-blue);
+}
+
+.elementor-widget-wp-widget-nav_menu ul li a:after {
+    content: "\f061";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    right: 20px;
+    position: absolute;
+    font-size: 14px;
+    line-height: 2.5;
+    color: var(--border-white);
+}
+
+
+/*====================================
+======= RESTL SOCIAL ICON CSS =======
+====================================*/
+
+.rezilla-social-icon-box ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rezilla-social-icon-box ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.rezilla-social-icon-box ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: var(--border-white);
+    border-radius: 100%;
+    text-align: center;
+    line-height: 45px;
+}
+
+.rezilla-social-icon-box ul li a:hover {
+    color: var(--color-white);
+    background: var(--color-blue);
+}
+
+.rezilla-social-icon-box ul li:last-child {
+    margin-right: 0;
+}
+
+.rezilla-social-icon-box h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rezilla-social-icon-box h3 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--heading-font);
+    line-height: 46px;
+}
+
+
+/*====================================
+====== REZILLA COMPANY INFO CSS ======
+====================================*/
+
+.company-social-links ul li {
+    display: inline-block;
+}
+
+.company-social-links ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-white);
+    border-radius: 100%;
+    text-align: center;
+    padding: 13px;
+    margin-right: 7px;
+    font-size: 14px;
+}
+
+.company-social-links ul li a:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+
+/*====================================
+====== REZILLA VIDEO BUTTON CSS ======
+====================================*/
+
+.video-icons {
+    width: 60px;
+    display: inline-block;
+    height: 60px;
+    border-radius: 100%;
+    border: 1px solid var(--color-blue);
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 14px;
+    padding: 16px;
+    font-size: 20px;
+    transition: .4s;
+}
+
+.video-icons span {
+    font-size: 18px;
+}
+
+.video-button-wrapper a span {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.video-button-wrapper a .video-icons:hover {
+    background: var(--color-blue);
+    color: var(--color-white);
+}
+
+@-webkit-keyframes zoomInOut {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+}
+
+@keyframes zoomInOut {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+}
+
+span.bar.bar-ani:after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    left: 6px;
+    background: var(--color-white);
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG;
+}
+
+@-webkit-keyframes MOVE-BG {
+    from {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    to {
+        -webkit-transform: translateX(88px);
+        transform: translateX(88px);
+    }
+}
+
+@keyframes MOVE-BG {
+    from {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    to {
+        -webkit-transform: translateX(88px);
+        transform: translateX(88px);
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1800px) {}
+
+@media all and (min-width: 1024px) and (max-width: 1199px) {}
+
+@media all and (min-width: 993px) and (max-width: 1024px) {}
+
+@media all and (min-width: 993px) and (max-width: 1199px) {}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .button.search-open {
+        position: absolute;
+        right: 264px;
+        top: 40px;
+    }
+    .button.d-flex.cta {
+        position: absolute;
+        right: 80px;
+        top: 23px;
+    }
+    .stellarnav.mobile.active>.button {
+        opacity: 0;
+        transition: .4s;
+    }
+    .rezilla-blog-post-wrapper.style-two .first-no .rezilla-blog-post-item {
+        display: block;
+    }
+    .rezilla-blog-post-wrapper.style-two .first-no .rezilla-blog-post-img {
+        width: 100%;
+    }
+    .rezilla-blog-post-wrapper.style-two .first-no .rezilla-blog-post-content {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+    .rezilla-section-title {
+        padding: 0 50px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .rezilla-testimonial-img {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {}
+
+@media screen and (max-width: 768px) {
+    .elementornavs.mobile>.button {
+        display: none;
+    }
+    .rezilla-blog-post-wrapper.style-two .first-no .rezilla-blog-post-item {
+        display: block;
+    }
+    .rezilla-blog-post-wrapper.style-two .first-no .rezilla-blog-post-img {
+        width: 100%;
+    }
+    .rezilla-blog-post-wrapper.style-two .first-no .rezilla-blog-post-content {
+        width: 100%;
+        margin-left: 0;
+    }
+    .service-tab-title .icon {
+        display: block;
+        font-size: 24px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .rezilla-section-title {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    input.wpcf7-form-control.wpcf7-submit {
+        padding: 15px 20px;
+    }
+    .service-varticl-tab-wrapper .d-flex {
+        display: block !important;
+        width: 100%;
+    }
+    .service-tab-title.nav-link {
+        width: 100%;
+    }
+    .service-tab-title .icon {
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .flex-column.service-tab_titles {
+        max-width: 100%;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 375px) {}

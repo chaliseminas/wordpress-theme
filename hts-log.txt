@@ -1,0 +1,78 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 17 Feb 2024 10:27:25 at https://wptf.themepul.co/rezilla/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://wptf.themepul.co/rezilla/ -O1 "H:\Templates\daitheme" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:39:55	Error: 	"Not Found" (404) at link https://wptf.themepul.co/rezilla/wp-content/plugins/rezillacore/assets/css/owl.video.play.png (from https://wptf.themepul.co/rezilla/wp-content/plugins/rezillacore/assets/css/owl.css?ver=2.2.0)
+10:39:55	Error: 	"Not Found" (404) at link https://wptf.themepul.co/rezilla/wp-content/plugins/rezillacore/assets/images/cross-out.png (from https://wptf.themepul.co/rezilla/wp-content/plugins/rezillacore/assets/css/owl.css?ver=2.2.0)
+10:40:22	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=335
+10:40:22	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=335 to https://wptf.themepul.co/rezilla/home-2/
+10:42:58	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=614
+10:42:58	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=614 to https://wptf.themepul.co/rezilla/home-3/
+10:42:58	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/service/
+10:42:58	Warning: 	File has moved from https://wptf.themepul.co/rezilla/service/ to https://wptf.themepul.co/rezilla/services/
+10:43:03	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=57
+10:43:03	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=57 to https://wptf.themepul.co/rezilla/about-us/
+10:43:09	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=207
+10:43:09	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=207 to https://wptf.themepul.co/rezilla/services/
+10:43:18	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=1172
+10:43:18	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=1172 to https://wptf.themepul.co/rezilla/services/customer-support/
+10:43:19	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=1174
+10:43:19	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=1174 to https://wptf.themepul.co/rezilla/services/perfect-strategy/
+10:43:19	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=1176
+10:43:19	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=1176 to https://wptf.themepul.co/rezilla/services/saas-development/
+10:43:19	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=1178
+10:43:19	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=1178 to https://wptf.themepul.co/rezilla/services/ui-ux-branding/
+10:43:19	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=209
+10:43:19	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=209 to https://wptf.themepul.co/rezilla/services/web-customization/
+10:43:20	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=1262
+10:43:20	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=1262 to https://wptf.themepul.co/rezilla/faq/
+10:43:20	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=1184
+10:43:20	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=1184 to https://wptf.themepul.co/rezilla/pricing/
+10:43:21	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=1248
+10:43:21	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=1248 to https://wptf.themepul.co/rezilla/team/
+10:45:31	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=1284
+10:45:31	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=1284 to https://wptf.themepul.co/rezilla/testimonial/
+10:50:57	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=31
+10:50:57	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=31 to https://wptf.themepul.co/rezilla/consulting-reporting-could-group-business-people/
+10:50:57	Error: 	"Method Not Allowed" (405) at link https://wptf.themepul.co/rezilla/xmlrpc.php (from https://wptf.themepul.co/rezilla/consulting-reporting-could-group-business-people/)
+10:51:22	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=59
+10:51:22	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=59 to https://wptf.themepul.co/rezilla/contact-us/
+10:51:45	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=18
+10:51:45	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=18 to https://wptf.themepul.co/rezilla/how-to-build-and-launch-powerful-responsive-a-websites-with-editor/
+10:52:10	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=34
+10:52:10	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=34 to https://wptf.themepul.co/rezilla/people-taking-part-in-colleagues-having-fun-a-business-event/
+10:52:35	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=45
+10:52:35	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=45 to https://wptf.themepul.co/rezilla/business-people-working-together-for-grow-our-company/
+10:52:59	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=43
+10:52:59	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=43 to https://wptf.themepul.co/rezilla/technology-connection-as-online-networking-part-of-company/
+10:53:02	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=1251
+10:53:02	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=1251 to https://wptf.themepul.co/rezilla/rezilla-team/lauren-devid/
+10:53:02	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=508
+10:53:02	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=508 to https://wptf.themepul.co/rezilla/rezilla-team/lurch-schpel/
+10:53:03	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=506
+10:53:03	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=506 to https://wptf.themepul.co/rezilla/rezilla-team/jason-response/
+10:53:04	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=504
+10:53:04	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=504 to https://wptf.themepul.co/rezilla/rezilla-team/norman-gordon/
+10:53:04	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=41
+10:53:04	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=41 to https://wptf.themepul.co/rezilla/handicapped-woman-entre-preneur-with-locomotor-branch/
+10:53:05	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=399
+10:53:05	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=399 to https://wptf.themepul.co/rezilla/rezilla-team/daniella-rhodes/
+10:53:05	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=478
+10:53:05	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=478 to https://wptf.themepul.co/rezilla/rezilla-team/david-phillips/
+10:53:05	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=489
+10:53:05	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=489 to https://wptf.themepul.co/rezilla/rezilla-team/lauren-davison/
+10:53:05	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=493
+10:53:05	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=493 to https://wptf.themepul.co/rezilla/rezilla-team/lauren-davison-2/
+10:53:06	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=501
+10:53:06	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=501 to https://wptf.themepul.co/rezilla/rezilla-team/benjamin-evalent/
+10:53:07	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=38
+10:53:07	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=38 to https://wptf.themepul.co/rezilla/the-belgian-exodus-of-world-war-one-of-the-most-part-of-tech/
+10:53:30	Warning: 	Moved Permanently for https://wptf.themepul.co/rezilla/?p=36
+10:53:30	Warning: 	File has moved from https://wptf.themepul.co/rezilla/?p=36 to https://wptf.themepul.co/rezilla/businessman-in-wheelchair-looking-at-analysis-on-laptop/
+
+HTTrack Website Copier/3.49-2 mirror complete in 26 minutes 20 seconds : 1156 links scanned, 1120 files written (49094204 bytes overall) [46918398 bytes received at 29695 bytes/sec], 3690545 bytes transferred using HTTP compression in 60 files, ratio 26%
+(3 errors, 64 warnings, 0 messages)
